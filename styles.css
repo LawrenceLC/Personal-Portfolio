@@ -90,3 +90,19 @@ p {
     margin: 0;
     margin-bottom: 55px;
 }
+
+.Socials-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:25%;
+}
+
+.Social {
+    float: left;
+    
+}
