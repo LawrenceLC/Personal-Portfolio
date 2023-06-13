@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: Roboto;
+  }
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    max-width: 1000px;
+    min-width: 400px;
+    align-self: center;
+    flex-direction: column;
+
+}
+
+.flex-container {
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+}
+
+#developer-of-button {
+    font-size: 72px;
+    min-height: 72px;
+    width:auto;
+    padding: 0;
+    padding-right: 6px;
+    border: 0;
+    height: 86px;
+    overflow: hidden; 
+}
+
+#skill {
+    display: block;
+    width: 100%;
+    white-space:nowrap;
+    overflow: hidden;
+    border-right: 5px solid;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    animation: 
+        typing 2s steps(8),
+        cursor .6s step-end infinite alternate;
+    margin: 0;
+    font-family: monospace;
+}
+
+@keyframes cursor {
+    50% {border-right-color: transparent}
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 55px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 3px solid;
+}
+
+    
+.nav-items {
+    display: flex;
+    align-items: center;
+    padding:0;
+    margin: 0;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 72px;
+    display:inline-block;
+    margin-bottom:55px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p {
+    margin: 0;
+    margin-bottom: 55px;
+}
